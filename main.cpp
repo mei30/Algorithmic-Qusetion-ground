@@ -1,9 +1,12 @@
 #include <iostream>
 
+#include "Solution.h"
+
 using namespace std;
 
 int main()
 {
-	cout << "Hello World!" << endl;
+	Solution s;
+	s.solution();
 	return 0;
 }

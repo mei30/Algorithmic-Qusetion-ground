@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-void Solution::solution()
+bool Solution::solution()
 {
-	std::cout << "This is a template test\n";
+	return true;
 }

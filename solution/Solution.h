@@ -4,7 +4,9 @@
 class Solution
 {
 	public:
-		void solution();
+		Solution() = default;
+
+		bool solution();
 };
 
 #endif

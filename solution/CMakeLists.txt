@@ -7,8 +7,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_library(solution Solution.cpp)
 
-message(STATUS ${SOLUTION_LIBRARY_LIB_DIRECTORY})
-
 install(TARGETS solution
     DESTINATION ${SOLUTION_LIBRARY_LIB_DIRECTORY})
 install(FILES Solution.h
